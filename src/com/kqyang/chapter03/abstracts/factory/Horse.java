@@ -10,13 +10,13 @@ public class Horse implements Animal {
 
     public Horse() {
         Container container = jf.getContentPane();
-        JPanel jl = new JPanel();
-        jl.setLayout(new GridLayout(1, 1));
-        jl.setBorder(BorderFactory.createTitledBorder("动物：马"));
-        sp = new JScrollPane();
+        JPanel pl = new JPanel();
+        pl.setLayout(new GridLayout(1, 1));
+        pl.setBorder(BorderFactory.createTitledBorder("动物：马"));
+        sp = new JScrollPane(pl);
         container.add(sp, BorderLayout.CENTER);
         JLabel ll = new JLabel(new ImageIcon("src/image/A_Horse.jpg"));
-        jl.add(ll);
+        pl.add(ll);
         jf.pack();
         jf.setVisible(false);
         jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

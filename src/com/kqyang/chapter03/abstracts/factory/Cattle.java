@@ -13,7 +13,7 @@ public class Cattle implements Animal {
         JPanel jl = new JPanel();
         jl.setLayout(new GridLayout(1, 1));
         jl.setBorder(BorderFactory.createTitledBorder("动物：牛"));
-        sp = new JScrollPane();
+        sp = new JScrollPane(jl);
         container.add(sp, BorderLayout.CENTER);
         JLabel ll = new JLabel(new ImageIcon("src/image/A_Cattle.jpg"));
         jl.add(ll);

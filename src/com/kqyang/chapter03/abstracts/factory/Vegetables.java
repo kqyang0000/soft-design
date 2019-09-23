@@ -13,7 +13,7 @@ public class Vegetables implements Plant {
         JPanel jl = new JPanel();
         jl.setLayout(new GridLayout(1, 1));
         jl.setBorder(BorderFactory.createTitledBorder("植物：蔬菜"));
-        sp = new JScrollPane();
+        sp = new JScrollPane(jl);
         container.add(sp, BorderLayout.CENTER);
         JLabel ll = new JLabel(new ImageIcon("src/image/P_Vegetables.jpg"));
         jl.add(ll);
