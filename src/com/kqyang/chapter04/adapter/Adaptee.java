@@ -1,4 +1,4 @@
-package com.kqyang.chapter04.adapter.clazz;
+package com.kqyang.chapter04.adapter;
 
 public class Adaptee {
     public void specialRequest(){
