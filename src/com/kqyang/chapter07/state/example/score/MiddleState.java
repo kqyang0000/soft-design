@@ -1,4 +1,4 @@
-package com.kqyang.chapter07.state.example;
+package com.kqyang.chapter07.state.example.score;
 
 public class MiddleState extends AbstractState {
 
