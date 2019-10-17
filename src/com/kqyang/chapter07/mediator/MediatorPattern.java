@@ -1,4 +1,4 @@
-package com.kqyang.chapter07.observer.mediator;
+package com.kqyang.chapter07.mediator;
 
 public class MediatorPattern {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.kqyang.chapter07.observer.mediator;
+package com.kqyang.chapter07.mediator;
 
 import java.util.ArrayList;
 import java.util.List;

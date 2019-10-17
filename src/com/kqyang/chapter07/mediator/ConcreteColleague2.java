@@ -1,4 +1,4 @@
-package com.kqyang.chapter07.observer.mediator;
+package com.kqyang.chapter07.mediator;
 
 public class ConcreteColleague2 extends Colleague {
     @Override
